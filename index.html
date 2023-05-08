@@ -2,51 +2,163 @@
 <html>
 
 <head>
-    <title>Desarrollos Web</title>
+    <title>Desarrollo de Sitios Web</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        /* Agregar estilos CSS aquí */
-    </style>
-    <script>
-        function irASeccion(seccion) {
-            window.location.href = "#" + seccion;
-        }
-    </script>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
         <nav>
-            <ul>
-                <li><a href="#" onclick="irASeccion('inicio')">Inicio</a></li>
-                <li><a href="#" onclick="irASeccion('tema-seleccionado')">Tema seleccionado</a></li>
-                <li><a href="#" onclick="irASeccion('mockup')">Mockup</a></li>
-                <li><a href="#" onclick="irASeccion('acerca-de')">Acerca de</a></li>
-            </ul>
+            <section class="contenedor nav">
+                <div class="logo">
+                    <img src="" alt="">
+                </div>
+                <div class="enlaces-header">
+                    <a href="#">Inicio</a>
+                    <a href="#">Tema seleccionado</a>
+                    <a href="#">Mockup</a>
+                    <a href="#">Acerca de</a>
+                </div>
+                <div class="hamburguer">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </section>
         </nav>
+        <div class="contenedor">
+            <section class="contenido-header">
+                <section class="textos-header">
+                    <h1>Our creativity</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, voluptatibus. Deleniti
+                        doloremque ipsum minus ipsa enim iste blanditiis minima optio. Soluta illo ex, asperiores
+                        deserunt ipsum animi ad optio in?</p>
+                        <a href="#">Read more</a>
+                </section>
+                <img src="img/ilustracion1.svg" alt="">
+            </section>
+        </div>
     </header>
-    <main>
-        <section id="inicio">
-            <h1>Bienvenido/a a nuestra empresa de desarrollos web</h1>
-            <!-- Agregar contenido aquí -->
+    <section class="about-us">
+        <div class="contenedor1">
+            <h2 class="titulo">We provide a wide range</h2>
+            <div class="contenedor-articulo">
+                <div class="articulo">
+                    <i class="fas fa-pen-fancy"></i>
+                    <h3>Graphic design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati omnis recusandae explicabo nam
+                        placeat veritatis. Maxime quam tempore temporibus a.</p>
+                    <a href="#">Read more</a>
+                </div>
+                <div class="articulo">
+                    <i class="fas fa-code"></i>
+                    <h3>Web design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati omnis recusandae explicabo nam
+                        placeat veritatis. Maxime quam tempore temporibus a.</p>
+                    <a href="#">Read more</a>
+                </div>
+                <div class="articulo">
+                    <i class="fas fa-cog"></i>
+                    <h3>Video production</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati omnis recusandae explicabo nam
+                        placeat veritatis. Maxime quam tempore temporibus a.</p>
+                    <a href="#">Read more</a>
+                </div>
+                <div class="articulo">
+                    <i class="fas fa-chart-pie"></i>
+                    <h3>SEO</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati omnis recusandae explicabo nam
+                        placeat veritatis. Maxime quam tempore temporibus a.</p>
+                    <a href="#">Read more</a>
+                </div>
+                <div class="articulo">
+                    <i class="fas fa-chart-bar"></i>
+                    <h3>Marketing</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati omnis recusandae explicabo nam
+                        placeat veritatis. Maxime quam tempore temporibus a.</p>
+                    <a href="#">Read more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="questions contenedor">
+        <section class="textos-questions">
+            <h1>Our creativity</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, voluptatibus. Deleniti
+                doloremque ipsum minus ipsa enim iste blanditiis minima optio. Soluta illo ex, asperiores
+                deserunt ipsum animi ad optio in?</p>
+                <a href="#">Read more</a>
         </section>
-        <section id="tema-seleccionado">
-            <h2>Tema seleccionado</h2>
-            <!-- Agregar contenido aquí -->
-        </section>
-        <section id="mockup">
-            <h2>Mockup</h2>
-            <!-- Agregar contenido aquí -->
-        </section>
-        <section id="acerca-de">
-            <h2>Acerca de</h2>
-            <!-- Agregar contenido aquí -->
-        </section>
-    </main>
+        <img src="img/ilustracion2.svg" alt="">
+    </section>
+    <section class="results">
+        <div class="contenedor conten-results">
+            <section class="numbers">
+                <div class="number">
+                    <h4>+57</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, magnam.</p>
+                </div>
+                <div class="number">
+                    <h4>+57</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, magnam.</p>
+                </div>
+                <div class="number">
+                    <h4>+57</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, magnam.</p>
+                </div>
+                <div class="number">
+                    <h4>+57</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, magnam.</p>
+                </div>
+            </section>
+            <div class="section results-text">
+                <h4>Lorem ipsum dolor sit amet.</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, aspernatur!</p>
+                <a href="#">Ingrese aquí</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="contenedor1 services">
+        <img src="img/ilustracion3.svg" alt="">
+        <div class="box-skills">
+            <h4><i class="far fa-check-circle"></i> Web design</h4>
+            <h4><i class="far fa-check-circle"></i> Web development</h4>
+            <h4><i class="far fa-check-circle"></i> SEO</h4>
+            <h4><i class="far fa-check-circle"></i> Web support</h4>
+        </div>
+    </section>
     <footer>
+        <div class="partFooter">
+            <img src="" alt="">
+        </div>
+        <div class="partFooter">
+            <h4>Servicios</h4>
+            <a href="#">Services 1</a>
+            <a href="#">Services 2</a>
+            <a href="#">Services 3</a>
+        </div>
+        <div class="partFooter">
+            <h4>Acerca de</h4>
+            <a href="#">About 1</a>
+            <a href="#">About 2</a>
+            <a href="#">About 3</a>
+        </div>
+        <div class="partFooter">
+            <h4>Redes sociales</h4>
+            <div class="social-media">
+                <h4><i class="fa-brands fa-facebook"></i></h4>
+                <h4><i class="fa-brands fa-instagram"></i></h4>
+                <h4><i class="fa-brands fa-twitter"></i></h4>
+                <h4><i class="fa-brands fa-youtube"></i></h4>
+            </div>
+        </div>
         <p>&copy; 2023 Desarrollos Web. Todos los derechos reservados.</p>
     </footer>
+    <script src="https://kit.fontawesome.com/0db86ad911.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
